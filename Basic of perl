@@ -1,0 +1,38 @@
+#1.Write a Perl script to store a DNA sequence in scalar variable entered by user and display an output 
+$dna= "ATCGCA";
+print " The DNA sequence is $dna";
+
+#2.Write a Perl script to ask the user to enter RNA sequence using array without loop
+@rna;
+print "The first rna sequence is \n";
+$rna [0] = <stdin>;
+
+print "The second rna sequence is \n";
+$rna [1] = <stdin>;
+
+print "The third rna sequence is \n";
+$rna [2] =<stdin>;
+
+print "The fourth rna sequence is \n";
+$rna [3] = <stdin>;
+print "The fifth rna sequence is \n";
+$rna [4] =<stdin>; 
+
+print "$rna [0]";
+print "$rna [1]";
+print "$rna [2]";
+print "$rna [3]";
+print "$rna [4]";
+
+# 3.Write a Perl script to store codon using hash variables 
+%codon = { 1=>AUG, 2=> ACC, 3=>ATC, 4=>AGG, 5=> GAC };
+print "$codon{1}\n";
+print "$codon{2}\n";
+print "$codon{3}\n";
+print "$codon{4}\n";
+print "$codon{5}\n";  
+
+
+
+
+  
